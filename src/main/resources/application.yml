@@ -1,1 +1,2 @@
-environment.accessCode=1111
+spring:
+  accessCode: hello
