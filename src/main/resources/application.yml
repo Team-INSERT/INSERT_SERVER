@@ -1,2 +1,23 @@
 spring:
-  accessCode: hello
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/${DB_NAME}
+    username: ${DB_USER}
+    password: ${DB_PW}
+
+  logging:
+    level:
+      org:
+        hibernate:
+          SQL: debug
+  jpa:
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+
+  accessCode: ${ACCESS_CODE}
+
+  github:
+    token: ${GITHUB_TOKEN}
