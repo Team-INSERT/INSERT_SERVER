@@ -12,5 +12,5 @@ import lombok.NoArgsConstructor;
 public class SaveGenerationDto {
     private String accessCode;
     private String githubId;
-    private String generation;
+    private Integer generation;
 }
