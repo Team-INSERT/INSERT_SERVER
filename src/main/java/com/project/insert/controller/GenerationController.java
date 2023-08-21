@@ -6,6 +6,7 @@ import lombok.RequiredArgsConstructor;
 import org.json.simple.JSONArray;
 import org.springframework.web.bind.annotation.*;
 
+@CrossOrigin(origins = "*")
 @RequiredArgsConstructor
 @RestController
 public class GenerationController {
