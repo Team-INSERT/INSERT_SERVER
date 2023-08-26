@@ -1,0 +1,12 @@
+version: 0.0
+os: linux
+
+files:
+  - source: /
+    destination: /home/ubuntu/Insert-BE-Auto
+    overwrite: yes
+permissions:
+  - object: /home/ubuntu/Insert-BE-Auto
+    owner: ubuntu
+    group: ubuntu
+    mode: 755

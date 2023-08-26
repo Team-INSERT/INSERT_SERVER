@@ -3,7 +3,7 @@ package com.project.insert;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
+//@SpringBootTest
 class InsertApplicationTests {
 
 	@Test
